@@ -1,0 +1,73 @@
+/* Estilos para el cuerpo de la página */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: red; /* Cambio de color a rojo */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Hace que el cuerpo ocupe toda la altura de la ventana */
+}
+
+/* Contenedor principal */
+
+.container {
+    max-width: 400px; /* Reducción del ancho del contenedor */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Formulario */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Etiquetas y campos de entrada */
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px; /* Reducción del ancho del cuadro de entrada */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 5px; /* Reducción del margen izquierdo */
+    margin-right: 5px; /* Reducción del margen derecho */
+}
+
+/* Botón Contratar */
+
+button {
+    padding: 10px 20px;
+    background-color: yellow; /* Cambio de color a amarillo */
+    color: red; /* Cambio de color a rojo */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px; /* Reducción del ancho del botón */
+}
+
+/* Botón Contratar al pasar el ratón */
+
+button:hover {
+    background-color: #ffcc00; /* Amarillo más claro al pasar el ratón */
+}
